@@ -11,6 +11,12 @@ export class VehiculesService {
     { marque: 'Volkswagen', modele: 'Polo', couleur: 'blanche', prix: 17000 },
     { marque: 'Ford', modele: 'Fiesta', couleur: 'noire', prix: 14000 },
     { marque: 'Opel', modele: 'Corsa', couleur: 'jaune', prix: 13000 },
+    { marque: 'Fiat', modele: 'Punto', couleur: 'verte', prix: 12000 },
+    { marque: 'Toyota', modele: 'Yaris', couleur: 'orange', prix: 11000 },
+    { marque: 'Nissan', modele: 'Micra', couleur: 'violette', prix: 10000 },
+    { marque: 'Suzuki', modele: 'Swift', couleur: 'marron', prix: 9000 },
+    { marque: 'Hyundai', modele: 'i20', couleur: 'beige', prix: 8000 },
   ];
+
   constructor() { }
 }
