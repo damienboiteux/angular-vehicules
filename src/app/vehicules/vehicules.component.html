@@ -22,7 +22,7 @@
         </thead>
         <tr *ngFor="let vehicule of (vehicules | sortByMarque:sortOrder | filterByModele:searchTerm)">
             <td>{{ vehicule.marque }}</td>
-            <td><a routerLink="['/vehicules', vehicule.id]">{{ vehicule.modele }}</a></td>
+            <td><a [routerLink]="['/vehicules', vehicule.id]">{{ vehicule.modele }}</a></td>
             <td>{{ vehicule.couleur }}</td>
             <td>{{ vehicule.prix }}</td>
         </tr>
